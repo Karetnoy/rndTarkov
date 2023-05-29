@@ -101,7 +101,7 @@ body {
 
 .container-section {
     width: 90%;
-    height: 90%;
+    height: 800px;
     margin: 200px 125px auto 125px;
 
     display: block;
@@ -118,13 +118,14 @@ section h2 {
     color: white;
 }
 
-.container-section .container-lucky .btn-lucky {
+.container-section .container-lucky a {
     width: 322px;
     height: 80px;
     border-radius: 32px;
     background-color: #E0A751;
     text-transform: uppercase;
     font-size: 24px;
+    vertical-align: middle; /* это должно сработать */
     color: white;
     font-family: 'Play', sans-serif;
 
